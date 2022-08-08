@@ -32,5 +32,6 @@ class Users():
 
 	def getUser(self, userId):
 		url = "https://api.intra.42.fr/v2/users/{}/projects_users".format(userId)
+		# url = "https://api.intra.42.fr/v2/projects/{}/projects_users".format(userId)
 		userDataList = self.__readFullDataFrom42Api(url)
 		return (userDataList)

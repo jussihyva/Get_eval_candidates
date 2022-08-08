@@ -6,7 +6,7 @@
 #    By: jkauppi <jkauppi@student.hive.fi>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/06 12:08:10 by jkauppi           #+#    #+#              #
-#    Updated: 2022/08/07 12:33:55 by jkauppi          ###   ########.fr        #
+#    Updated: 2022/08/08 14:45:07 by jkauppi          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -137,7 +137,8 @@ if __name__ == "__main__":
 	# get_project_users_data(token, 1081)
 	users = Users(utils)
 	# users.getAllUsers()
-	users.getUser(1081)
+	# users.getUser(1081)
+	users.getUser(25980)
 
 
 # Project name: First Internship (first-internship)
